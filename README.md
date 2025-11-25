@@ -1,0 +1,3 @@
+# echopulse1314-backend
+Culturally intelligent storytelling engine powered by FastAPI. Generates bilingual Swahili-English narratives from user comments, enriched with seasonal events, idioms, and regional flavor.
+EchoPulse1314 is a backend storytelling engine designed to transform everyday comments into rich, culturally resonant narratives. Built with FastAPI, it blends emotion, tone, idioms, and seasonal events to generate bilingual Swahili-English story summaries. It also detects regional flavor — mapping tags to places like Nairobi, Kisumu, and Mombasa — to deepen local relevance and community impact.
