@@ -1,66 +1,65 @@
 EchoPulse Backend
-Culturally intelligent storytelling engine powered by FastAPI. Transforms user comments into bilingual Swahili-English narratives enriched with emotion, seasonal events, idioms, and regional flavor.
+Tagline: Voices of Africa, told in two tongues
+
+Introduction: Africa’s Digital Griot
+Across Africa, the griot has long been the custodian of memory, culture, and oral tradition. These storytellers preserved histories, celebrated heroes, and passed wisdom from one generation to the next. EchoPulse carries this legacy forward into the digital era, becoming a digital griot for communities across Kenya and the wider continent.
+
+By transforming everyday comments into bilingual narratives enriched with idioms, seasonal events, and regional flavor, EchoPulse ensures that the voices of today are preserved for tomorrow. It bridges local languages with global accessibility, amplifying African identity while honoring the rhythm of oral storytelling.
+
+EchoPulse is not just software—it is a cultural companion. It listens, it remembers, and it retells, weaving together the threads of resilience, humor, heritage, and innovation. In classrooms, on radio waves, and within cultural archives, EchoPulse becomes a living archive of African voices, ensuring that traditions remain vibrant while evolving with modern technology.
+
+Vision
+EchoPulse was created to celebrate the diversity of Kenyan and East African storytelling traditions. It takes raw input from users—whether a phrase, a thought, or a reflection—and reshapes it into structured stories that highlight resilience, humor, heritage, and community. The system is built to honor cultural nuance, ensuring that every generated narrative feels authentic and grounded in local identity.
 
 Features
-Comment-to-Story Conversion: Translates raw user input into structured, resonant story summaries.
+Comment-to-Story Conversion: Converts user comments into structured story summaries that carry emotional depth and cultural resonance.
 
-Bilingual Output: Generates Swahili-English paragraphs with cultural nuance.
+Bilingual Output: Produces narratives in both Swahili and English, ensuring accessibility while preserving cultural nuance.
 
-Seasonal Enrichment: Adds context-aware events like harvests, holidays, or local festivals.
+Seasonal Enrichment: Adds context-aware elements such as harvests, holidays, and festivals, making stories timely and relevant.
 
-Regional Flavor Detection: Maps tags to Kenyan regions (e.g. Nairobi, Kisumu, Mombasa).
+Regional Flavor Detection: Maps keywords and themes to specific Kenyan regions, reflecting local identity (e.g., Nairobi’s hustle, Kisumu’s resilience, Mombasa’s heritage).
 
-Tag Cloud Visualization: Highlights dominant themes and keywords.
+Tag Cloud Visualization: Highlights dominant themes and keywords, offering a quick snapshot of community sentiment.
 
-SQLite Integration: Stores comments and generated stories for reuse and analysis.
+Story Archiving: Stores comments and generated stories for reuse, analysis, and long-term cultural documentation.
 
-Tech Stack
-FastAPI for backend routing and API endpoints
+Community Impact
+EchoPulse is more than a storytelling engine—it is a cultural tool that strengthens education, media, and heritage preservation.
 
-SQLite for lightweight data persistence
+Schools and Education: In rural classrooms, EchoPulse encourages bilingual learning and creative writing. Students share reflections that are transformed into Swahili-English stories enriched with seasonal context. Teachers build archives of student voices, fostering cultural pride and language fluency.
 
-Python for story logic and enrichment
+Local Media: Community radio stations and blogs use EchoPulse to turn listener comments into polished narratives. Everyday reflections about markets, festivals, or local struggles become bilingual story segments that resonate with audiences and strengthen community bonds.
 
-Git for version control
+Cultural Archives: Museums and heritage centers employ EchoPulse to preserve oral traditions and community voices. Elders’ proverbs, idioms, and folktales are transformed into bilingual narratives, tagged by region, and stored as living cultural memory accessible to future generations.
 
-Optional Frontend: React or HTML/CSS dashboard (coming soon)
+Together, these applications show EchoPulse as a bridge between tradition and technology—a platform that empowers communities, celebrates diversity, and ensures that local voices are heard, preserved, and shared.
 
-Installation
-git clone https://github.com/abysirKE/echopulse1314-backend.git
-cd echopulse1314-backend
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
-uvicorn main:app --reload
+Future Roadmap: African Languages & Culture
+EchoPulse is designed to evolve as a pan-African storytelling engine. Its next phase focuses on expanding linguistic diversity and cultural resonance across the continent:
 
-API Endpoint
-POST /comment
-{
-  "user_id": 1,
-  "text": "Harambee spirit and jua kali hustle"
-}
+Swahili Expansion: Deepen Swahili narrative richness by incorporating proverbs, idioms, and oral traditions from different regions.
 
-Response:
-{
-  "message": "Comment added",
-  "id": 1
-}
+New African Languages: Extend bilingual storytelling to include languages such as Kikuyu, Luo, Kamba, Somali, Amharic, Yoruba, and Zulu.
 
-Sample Output
-"In the heart of Nairobi, the jua kali spirit thrives. From metalwork to mobile repairs, the hustle echoes resilience..."
+Cultural Nuance Detection: Enhance the system’s ability to recognize and embed cultural references—festivals, rituals, and community practices unique to each region.
 
-Regional Tags
-Region	Sample Tags
-Nairobi	hustle, innovation, urban
-Kisumu	lake, community, resilience
-Mombasa	coast, trade, heritage
+Pan-African Seasonal Contexts: Move beyond Kenyan harvests and festivals to include continental events like Ethiopian Meskel, Nigerian New Yam Festival, or South African Heritage Day.
 
-Contributing
-Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to modify.
+Regional Identity Mapping: Build a wider tag cloud that reflects African diversity—from Nairobi’s innovation to Lagos’s hustle, Addis Ababa’s heritage, and Cape Town’s coastal vibrancy.
+
+Community Collaboration: Partner with schools, radio stations, and cultural archives across Africa to collect voices, idioms, and traditions that enrich EchoPulse’s storytelling library.
+
+Global Accessibility: Present African narratives bilingually (local language + English) to ensure they resonate both locally and globally, amplifying African voices on the world stage.
+
+Contribution Guidelines
+EchoPulse thrives on collaboration. Contributions are welcome, whether they involve refining story logic, expanding regional flavor detection, or enhancing narrative richness.
+
+Pull requests are encouraged for incremental improvements.
+
+For major changes, please open an issue first to discuss your ideas.
+
+Contributions should aim to preserve cultural authenticity while expanding global scalability.
 
 License
-MIT License
-
----
-
-Let me know when you’ve added it — I can help you write a `CONTRIBUTING.md`, set up GitHub Pages, or start the frontend layout. Want to sketch the dashboard next?
+EchoPulse is released under the MIT License, allowing for open collaboration and adaptation.
